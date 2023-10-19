@@ -124,20 +124,26 @@ const handleIncrement = () => {
         class="text-center bg-gray-50 rounded-md p-5 shadow"
       >
         <h2
-          class="text-2xl md:text-3xl font-extrabold text-gray-500 text-center"
+          class="text-1xl md:text-3xl font-extrabold text-gray-500 text-center"
         >
           Payment Summary:
         </h2>
-        <p class="text-xl md:text-2xl font-extrabold text-gray-400 text-center">
+        <p
+          class="text-1xl md:text-2xl font-extrabold text-gray-400 text-center"
+        >
           Months: <span class="font-meium text-emerald-500">{{ months }}</span>
         </p>
-        <p class="text-xl md:text-2xl font-extrabold text-gray-400 text-center">
+        <p
+          class="text-1xl md:text-2xl font-extrabold text-gray-400 text-center"
+        >
           Total to Pay:
           <span class="font-meium text-emerald-500">{{
             formatMoney(total)
           }}</span>
         </p>
-        <p class="text-xl md:text-2xl font-extrabold text-gray-400 text-center">
+        <p
+          class="text-1xl md:text-2xl font-extrabold text-gray-400 text-center"
+        >
           Monthly:
           <span class="font-meium text-emerald-500">{{
             formatMoney(monthlyPayment)
