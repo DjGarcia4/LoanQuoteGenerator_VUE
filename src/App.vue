@@ -50,7 +50,7 @@ const handleIncrement = () => {
 
 <template>
   <div class="h-screen grid place-items-center">
-    <div class="bg-white p-10 rounded-md shadow-lg">
+    <div class="bg-white p-10 rounded-md shadow-lg m-10">
       <Header />
       <div class="grid grid-cols-10 gap-4 my-3">
         <button class="col-span-1" @click="handleDecrement">
